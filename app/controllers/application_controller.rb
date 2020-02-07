@@ -13,4 +13,8 @@ class ApplicationController < ActionController::Base
     render html: "goodbye, world!"
   end
 
+  def joke
+    render html: "うんちぶりぶり！！"
+  end
+
 end
